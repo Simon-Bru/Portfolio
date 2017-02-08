@@ -1,0 +1,146 @@
+html {
+
+  /*background-color: #b0bec5;*/
+  background-color: #b2dfdb;
+
+}
+body{
+  display:flex;
+  min-height:100vh;
+  flex-direction: column;
+  background: url("dark_mosaic.png");
+  background-repeat:repeat;
+  overflow-x: hidden;
+}
+
+main{
+  flex: 1 0 auto;
+}
+
+.nav-wrapper ul, .nav-wrapper #menu li {
+  height:100%;
+}
+
+.links {
+  text-align: center;
+}
+
+.links span {
+  color: black;
+  margin-top:-10px;
+}
+
+.icon {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom:-5px;
+}
+
+
+.neutral {
+  text-decoration: none;
+  color:black;
+
+}
+
+.projects-row .col * {
+  display:block;
+}
+
+
+#CV-left {
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom:0px;
+  border-color: #16A085;
+  padding:0px;
+}
+
+#CV-left > * {
+  padding-left:0.5rem;
+}
+
+#CV-right {
+  padding:0px;
+}
+
+.CV-title {
+  border-style: solid;
+  border-left: 0px;
+  border-right:0px;
+  border-color: #16A085;
+  line-height: 45px;
+  justify-content: center;
+}
+
+.skill {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill span {
+  width:100%;
+}
+
+.logo {
+  width: 45px;
+  float:left;
+}
+
+.skill .material-icons {
+  color: #f1c40f;
+  color: #16A085;
+}
+
+.li_title {
+  font-size:20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.valign-center {
+  justify-content: center;
+}
+
+.card-panel {
+  margin-top: 2rem !important;
+}
+
+.skills-container .row {
+  margin-bottom: 0px !important;
+}
+
+.card-content {
+  position: relative;
+}
+
+.card-plus {
+  position: absolute;
+  right:0;
+  top:0;
+}
+
+.land-menu {
+  display:inline-block;
+
+}
+
+@media (min-width: 600px) {
+  .projects-row {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 765px){
+  #btn_asset {
+    display: none;
+  }
+}

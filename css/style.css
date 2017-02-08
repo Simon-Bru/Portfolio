@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'sofia_prolight';
+    src: url('Font/SofiaProLight-webfont.eot');
+    src: url('Font/SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/SofiaProLight-webfont.woff2') format('woff2'),
+         url('Font/SofiaProLight-webfont.woff') format('woff'),
+         url('Font/SofiaProLight-webfont.ttf') format('truetype'),
+         url('Font/SofiaProLight-webfont.svg#sofia_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+  font-size: 12px;
+}
+
+body {
+    color:black;
+	  font-family: 'sofia_prolight';
+    background: url("dark_mosaic.png");
+    background-repeat:repeat;
+}
+
+.navbar {
+  background-color: #0B4D40;
+  border-color:#0B4D40;
+  border-radius:0px;
+  padding:0px;
+
+}
+
+
+footer {
+  background-color:#0B4D40;
+}
+
+.navbar-header {
+  padding-top:20px;
+  color:black;
+}
+
+.navbar-default:hover .navbar-brand:hover{
+  color:black;
+}
+
+.navbar-default .navbar-brand {
+  color:black;
+  text-shadow: none;
+  font-size:25px;
+}
+
+.navbar-nav {
+  padding:0;
+  margin:0;
+}
+
+.navbar-nav li  {
+  padding:4px 0px 4px 0px;
+  text-align:center;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    border:none;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.navbar-nav li:hover {
+  background-color: #16a085;
+}
+
+.navbar-nav li.actif {
+  background-color: #00796b;
+}
+
+.jumbotron {
+  background-color: rgba(236, 240, 241,0.6);
+}
+
+.icon {
+  width: 30%;
+  cursor:pointer !important;
+  display:block;
+}
+
+.links {
+  text-align:center;
+  text-decoration: none;
+  color:black;
+}
+.links:hover {
+  text-decoration: none;
+  color:#777;
+}
+
+.project_img {
+  height:70px;
+}
+
+.projects-row {
+  display:flex;
+  align-items: center;
+  margin-bottom:20px;
+}
+
+.desc {
+  display: block;
+  margin-top:10px;
+  margin-bottom:5px;
+}
+
+.infos {
+  list-style: none;
+}
+
+#CV-left {
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom:0px;
+  border-color: #16A085;
+  padding:0px;
+}
+
+#CV-right {
+  padding:0px;
+}
+
+.CV-title {
+  border-style: solid;
+  border-left: 0px;
+  border-right:0px;
+  border-color: #16A085;
+  line-height: 35px;
+}
+
+.skill {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill span {
+  width:100%;
+}
+
+.logo {
+  max-width: 45px;
+}
+
+.fa-star {
+  color: #f1c40f;
+}
+
+.li_title {
+  font-size:20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .projects-row {
+    display:block;
+  }
+  .navbar-head {
+    /*text-align:center;*/
+  }
+
+}
